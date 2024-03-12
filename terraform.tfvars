@@ -1,0 +1,11 @@
+ami_id             = "ami-0fe630eb857a6ec83"
+key_name           = "my-key-pair"
+instance_type      = "t2.micro"
+instance_name      = "RedHatInstance"
+volume_size        = 20
+ssh_access_cidr    = "153.33.78.23/32"
+cidr_block         = "10.1.0.0/16"
+public_subnets     = ["10.1.0.0/24", "10.1.1.0/24"]
+private_subnets    = ["10.1.2.0/24", "10.1.3.0/24"]
+availability_zones = ["us-east-1a", "us-east-1b"]
+region             = "us-east-1"
